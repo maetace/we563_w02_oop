@@ -1,3 +1,3 @@
 # w01_dart
 
-A new Flutter project.
+WEEK #1 - INTRO TO FLUTTER (DART)
