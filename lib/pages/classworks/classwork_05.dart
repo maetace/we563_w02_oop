@@ -67,12 +67,12 @@ class Classwork05 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> results = [];
-    for (int i = 6; i >= 0; i--) {
+    for (int i = 6; i >= 1; i--) {
       results.add(function(i));
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Classwork 04 - Loops')),
+      appBar: AppBar(title: const Text('Classwork 05 - Functions')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: ListView.builder(

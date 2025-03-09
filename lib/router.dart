@@ -5,6 +5,7 @@ import 'pages/classworks/classwork_02.dart';
 import 'pages/classworks/classwork_03.dart';
 import 'pages/classworks/classwork_04.dart';
 import 'pages/classworks/classwork_05.dart';
+import 'pages/classworks/classwork_06.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -21,6 +22,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const Classwork04());
       case '/classwork_05':
         return MaterialPageRoute(builder: (_) => const Classwork05());
+      case '/classwork_06':
+        return MaterialPageRoute(builder: (_) => const Classwork06());
       default:
         return MaterialPageRoute(
           builder:

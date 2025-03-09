@@ -11,6 +11,7 @@ class SitemapPage extends StatelessWidget {
       {'title': 'Classwork 03 - Operators', 'route': '/classwork_03'},
       {'title': 'Classwork 04 - Loops', 'route': '/classwork_04'},
       {'title': 'Classwork 05 - Functions', 'route': '/classwork_05'},
+      {'title': 'Classwork 06 - OOP', 'route': '/classwork_06'},
     ];
 
     return Scaffold(
